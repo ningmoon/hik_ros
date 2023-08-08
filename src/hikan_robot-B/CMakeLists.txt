@@ -24,7 +24,7 @@ include_directories(
         ${catkin_INCLUDE_DIRS}
 )
 
-link_directories(../../../hikan_robot-B/src/hikan_robot-B/lib)
+link_directories(../../../hik_ros/src/hikan_robot-B/lib)
 
 add_library(hik_cam src/hik_cam.cpp)
 target_link_libraries(hik_cam
